@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+nav{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav h5 a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+}
+nav h5 a:hover{
+    text-decoration: underline;
+}
+nav img{
+    margin-left:20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#Google-logo{
+    height: 215px;
+    margin: 82px auto 0;
+}
+.search-field{
+    display: flex;
+    justify-content: center;
+}
+.search-field input {
+    height: 45px;
+    width: 40%;
+    background: transparent;
+    font-size: 15px;
+    padding: 5px 30px;
+    color: rgba(0, 0, 0, .87);
+    border: 1px solid #dfe1e5; 
+    border-radius: 25px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    margin: 27px 10px;
+    padding: 6px 13px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    border: 1px solid #d0d0d0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.after-search-bar{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.after-search-bar a{
+    margin: 0 5px;
+    font-weight: 200;
+    color: #1a0dab;
+    text-decoration: none;
+}
+.after-search-bar a:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: 200px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    height: 85px;
+}
+footer .foot h5{
+    color: #4f5051;
+    padding: 10px 20px;
+}
+.container{
+    display: flex;
+}
+.container span h5 a{
+    padding: 0 15px;
+    align-items: center;
+    text-decoration: none;
+    color: #4f5051;
+}
+.container2{
+    display: flex;
+}
